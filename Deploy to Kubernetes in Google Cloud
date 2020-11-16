@@ -1,3 +1,6 @@
+
+Repace Code in Jupitre notebook, sectons are alredy mentioned in the lab instruction which you have to replace with below python codes codes
+
 # ---- TODO ---------
 model = Sequential()
 model.add(layers.Dense(200, input_shape=(input_size,), activation='relu'))
