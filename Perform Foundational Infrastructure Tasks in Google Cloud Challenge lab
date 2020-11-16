@@ -1,3 +1,8 @@
+#Pase below cammands in cammand shell
+
+#change YOUR_PROJECT by Your project ID
+
+
 ult.json gs://YOUR_PROJECT-marking/task4-gcs.result
 
 
@@ -27,6 +32,7 @@ curl -s -H 'Content-Type: application/json' \
 Wait for the operation to complete, check with 
 curl -s -H 'Content-Type: application/json' -H "Authorization: Bearer $ACCESS_TOKEN" 'https://videointelligence.googleapis.com/v1/operations/OPERATION_FROM_PREVIOUS_REQUEST' > result1.json
 
+## Replace <Your project id> br Your Project ID 
 
 export YOUR_PROJECT= <Your project id>
 gsutil cp result1.json gs://$YOUR_PROJECT-marking/task4-gvi.result
